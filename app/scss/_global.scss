@@ -99,3 +99,15 @@ body {
         }
     }
 }
+.angle-right{
+    position: relative;
+    padding-left: 15px;
+    &::before{
+        content: "\f054";
+        font-family: 'icomoon';
+        position: absolute;
+        left: 0;
+        color: $green;
+        font-size: 14px;
+    }
+}
